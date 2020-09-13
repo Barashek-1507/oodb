@@ -13,11 +13,11 @@ public class Book {
         this.price = price;
     }
 
-    public int getSerial_number() {
+    public String getSerial_number() {
         return serial_number;
     }
 
-    public void setSerial_number(int serial_number) {
+    public void setSerial_number(String serial_number) {
         this.serial_number = serial_number;
     }
 

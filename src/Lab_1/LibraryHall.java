@@ -1,16 +1,16 @@
 package Lab_1;
 
+import java.util.ArrayList;
+
 public class LibraryHall {
     private String name;
-    private Librarian worker;
+    private ArrayList<Librarian> worker = new ArrayList<>();
     private Book catalog;
 
 
     public LibraryHall(String name, Librarian worker, Book catalog, LibraryCard card) {
         this.name = name;
-        this.worker = worker;
         this.catalog = catalog;
-        this.card = card;
     }
 
     public String getName() {
@@ -21,11 +21,11 @@ public class LibraryHall {
         this.name = name;
     }
 
-    public Librarian getWorker() {
+    public ArrayList<Librarian> getWorker() {
         return worker;
     }
 
-    public void setWorker(Librarian worker) {
+    public void setWorker(ArrayList<Librarian> worker) {
         this.worker = worker;
     }
 
@@ -37,11 +37,4 @@ public class LibraryHall {
         this.catalog = catalog;
     }
 
-    public LibraryCard getCard() {
-        return card;
-    }
-
-    public void setCard(LibraryCard card) {
-        this.card = card;
-    }
 }
