@@ -45,7 +45,4 @@ public class Book {
         this.price = price;
     }
 
-    public int change_price(int new_price){
-        return new_price;
-    }
 }

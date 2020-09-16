@@ -1,26 +1,26 @@
 package Lab_1;
 
 public class LibraryCard {
-    private int numberOfBilet;
+    private int numberOfTicket;
     private Book bookOnHand;
     private String name;
     private String surname;
     private LibraryHall hall;
 
-    public LibraryCard(int numberOfBilet, Book bookOnHand, String name, String surname, LibraryHall hall) {
-        this.numberOfBilet = numberOfBilet;
+    public LibraryCard(int numberOfTicket, Book bookOnHand, String name, String surname, LibraryHall hall) {
+        this.numberOfTicket = numberOfTicket;
         this.bookOnHand = bookOnHand;
         this.name = name;
         this.surname = surname;
         this.hall = hall;
     }
 
-    public int getNumberOfBilet() {
-        return numberOfBilet;
+    public int getNumberOfTicket() {
+        return numberOfTicket;
     }
 
-    public void setNumberOfBilet(int numberOfBilet) {
-        this.numberOfBilet = numberOfBilet;
+    public void setNumberOfTicket(int numberOfTicket) {
+        this.numberOfTicket = numberOfTicket;
     }
 
     public Book getBookOnHand() {

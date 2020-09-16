@@ -1,12 +1,13 @@
 package Lab_1;
 
-import java.util.ArrayList;
+
+import java.util.List;
 
 public class Reader {
     private String name;
     private String surname;
     private String phoneNumber;
-    ArrayList<Book> book = new ArrayList<>();
+    private List<Book> book;
     Library library;
 
     public Reader() {
@@ -22,19 +23,19 @@ public class Reader {
         return "Показал удостоверение";
     }
 
-    public String chooseBook(ArrayList<Book> book){
+    public String chooseBook(List<Book> book){
         return "Я выбрал эту книгу"+book;
     }
 
-    public ArrayList<Book> getBook(ArrayList<Book> book) {
+    public List<Book> getBook(List<Book> book) {
         return book;
     }
 
-    public void setBook(ArrayList<Book> book) {
+    public void setBook(List<Book> book) {
         this.book = book;
     }
 
-    public ArrayList<Book> returnBook(ArrayList<Book> book){
+    public List<Book> returnBook(List<Book> book){
         return book;
     }
 

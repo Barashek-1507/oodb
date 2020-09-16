@@ -1,10 +1,10 @@
 package Lab_1;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class LibraryHall {
     private String name;
-    private ArrayList<Librarian> worker = new ArrayList<>();
+    private List<Librarian> worker;
     private Book catalog;
 
 
@@ -21,11 +21,11 @@ public class LibraryHall {
         this.name = name;
     }
 
-    public ArrayList<Librarian> getWorker() {
+    public List<Librarian> getWorker() {
         return worker;
     }
 
-    public void setWorker(ArrayList<Librarian> worker) {
+    public void setWorker(List<Librarian> worker) {
         this.worker = worker;
     }
 
