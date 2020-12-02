@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order>
+    <bookThatOrdered>
+        <author>Джейн Эйр</author>
+        <name>Гордость и предубеждение</name>
+        <price>1000</price>
+        <serial_number>93</serial_number>
+    </bookThatOrdered>
+    <dataBack>29.04.2020</dataBack>
+    <dataTake>4.08.2019</dataTake>
+    <library>
+        <books>
+            <book>
+                <author>Оскар Уйальд</author>
+                <name>Портрет Дориана Грея</name>
+                <price>863</price>
+                <serial_number>02</serial_number>
+            </book>
+            <book>
+                <author>Олдос Хаксли</author>
+                <name>О дивный новый мир</name>
+                <price>888</price>
+                <serial_number>24</serial_number>
+            </book>
+            <book>
+                <author>Лев Толстой</author>
+                <name>Война и мир</name>
+                <price>46447</price>
+                <serial_number>35</serial_number>
+            </book>
+            <book>
+                <author>Рей Бредбери</author>
+                <name>Вино из одуванчиков</name>
+                <price>2563</price>
+                <serial_number>8</serial_number>
+            </book>
+            <book>
+                <author>Джейн Эйр</author>
+                <name>Гордость и предубеждение</name>
+                <price>1000</price>
+                <serial_number>93</serial_number>
+            </book>
+            <book>
+                <author>Мэтью Герберт</author>
+                <name>Дюна</name>
+                <price>976</price>
+                <serial_number>99</serial_number>
+            </book>
+        </books>
+        <name>Nomer 1</name>
+        <librarianWhoWorksThere>
+            <name>Anita</name>
+            <surname>Zlaya</surname>
+        </librarianWhoWorksThere>
+    </library>
+    <reader>
+        <booksOnHand>
+            <book>
+                <author>Олдос Хаксли</author>
+                <name>О дивный новый мир</name>
+                <price>888</price>
+                <serial_number>24</serial_number>
+            </book>
+            <book>
+                <author>Мэтью Герберт</author>
+                <name>Дюна</name>
+                <price>976</price>
+                <serial_number>99</serial_number>
+            </book>
+        </booksOnHand>
+        <name>Дмитрий</name>
+        <number>4363689404</number>
+        <surname>Масленников</surname>
+    </reader>
+</order>
